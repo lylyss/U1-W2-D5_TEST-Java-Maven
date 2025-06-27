@@ -7,6 +7,8 @@ public abstract class Games {
     private double prezzo;
 
     public Games(String id, String titolo, int anno, double prezzo) {
+        
+        if (prezzo < 0) throw new IllegalArgumentException("Il prezzo deve essere maggiore di zero");
         this.id = id;
         this.titolo = titolo;
         this.anno = anno;
@@ -15,7 +17,7 @@ public abstract class Games {
 
     public abstract void stampaDettagli();
 
-    //---------Getter
+    //--------- Getter
     public String getId() {
         return id;
     }
@@ -33,7 +35,7 @@ public abstract class Games {
     }
 
 
-    //-----------Setter
+    //---------- Setter
 
     public int getAnno() {
         return anno;
