@@ -1,7 +1,10 @@
 package lobodanicolae;
 
-import lobodanicolae.Entities.Genere;
-import lobodanicolae.Entities.Piataforma;
+import lobodanicolae.Entities.BoardGames;
+import lobodanicolae.Entities.Games;
+import lobodanicolae.Entities.VideoGames;
+import lobodanicolae.enums.Genere;
+import lobodanicolae.enums.Piataforma;
 
 import java.util.ArrayList;
 import java.util.List;

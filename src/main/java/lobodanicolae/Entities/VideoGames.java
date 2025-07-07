@@ -1,7 +1,7 @@
-package lobodanicolae;
+package lobodanicolae.Entities;
 
-import lobodanicolae.Entities.Genere;
-import lobodanicolae.Entities.Piataforma;
+import lobodanicolae.enums.Genere;
+import lobodanicolae.enums.Piataforma;
 
 public class VideoGames extends Games {
 

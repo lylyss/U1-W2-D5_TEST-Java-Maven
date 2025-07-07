@@ -1,4 +1,4 @@
-package lobodanicolae;
+package lobodanicolae.Entities;
 
 public class BoardGames extends Games {
     private int numGiocatori;

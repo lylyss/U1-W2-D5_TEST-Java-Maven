@@ -1,4 +1,4 @@
-package lobodanicolae;
+package lobodanicolae.Entities;
 
 public abstract class Games {
     private String id;
@@ -7,7 +7,7 @@ public abstract class Games {
     private double prezzo;
 
     public Games(String id, String titolo, int anno, double prezzo) {
-        
+
         if (prezzo < 0) throw new IllegalArgumentException("Il prezzo deve essere maggiore di zero");
         this.id = id;
         this.titolo = titolo;
